@@ -1,0 +1,12 @@
+.background-menu-color{
+    background-color: #bc96ffad
+}
+
+.background-menu-color:hover{
+    background-color: #a779f8ad;
+    cursor: pointer;
+}
+
+.border-radius-35px{
+    border-radius: 35px;
+}

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Gestión fichajes</title>
+  <base href="/">
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="manifest" href="./manifest.webmanifest">             
+  <meta name="theme-color" content="#1976d2">   
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#1976d2">
+  <script>
+    //first check if the browser supports the service worker
+    if ("serviceWorker" in navigator) {
+      //navigator.serviceWorker returns a service worker container, 
+      // that has a method to register it to the browser. 
+      //Register method returns a promise, which allows you to use the ‘.then’ or ‘.catch’ syntax
+      navigator.serviceWorker.register("serviceWorker.js")
+      .catch((err) => {console.log("Service worker registration failed");});
+    }
+  </script>
+</head>
+<body>
+  <app-root></app-root>
+  <noscript>Please enable JavaScript to continue using this application.</noscript>
+</body>
+</html>

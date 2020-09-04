@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+body, html{
+    height: 100%;
+}
+
+.h-10{
+    height: 10%;
+}
+
+.h-90{
+    height: 90%;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.align-items-center{
+    align-items: center;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mat-form-field-flex{
+    background-color: transparent !important;
+}
+
+.mat-button-toggle-button:focus {
+    outline: none;
+  }
+
+.mat-button-toggle-checked {
+    background-color: #673ab754;
+}
+
+svg{
+    fill:#673ab7
+}
+
+.purple-title{
+    color:#bc96ff;
+}
+
+.navbar-brand:hover{
+    color:#a779f8
+}
+
+
+button{
+    outline: none !important;
+}

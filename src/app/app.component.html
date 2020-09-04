@@ -1,0 +1,21 @@
+
+<nav class="navbar navbark-dark bg-dark ">
+    <a href="/" class="navbar-brand purple-title">Menú fichajes</a>
+
+    <button mat-icon-button class="purple-title position-absolute right-0 outline-none" [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item class="outline-none" routerLink="/fichar">
+          <mat-icon>access_time</mat-icon>
+          <span>Fichar</span>
+        </button>
+        <button mat-menu-item>
+          <mat-icon>history</mat-icon>
+          <span>Consultar fichajes</span>
+        </button>
+      </mat-menu>
+
+
+</nav>
+<router-outlet ></router-outlet>

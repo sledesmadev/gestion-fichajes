@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/gestion-fichajes",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
