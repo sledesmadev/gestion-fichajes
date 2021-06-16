@@ -1,3 +1,5 @@
-# gestion-fichajes
-Gestionar fichajes y comisiones
-Aplicación en proceso de creación para la gestión de fichajes de un centro de estética y para realizar un control sobre los productos vendidos y que comisión se le debe asignar a cada trabajadora.
+# Signing Management (In development)
+
+Application made with Angular and Firebase.
+
+Application for make workers to clock in and clock out when they are working and to make them know how many hours have they worked in a day.
